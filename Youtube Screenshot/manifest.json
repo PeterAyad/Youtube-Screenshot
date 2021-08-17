@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Youtube Screenshot",
+    "version": "1.0",
+    "description": "Takes a screenshot of a youtube video on pressing Shift + A",
+    "icons": {
+        "48": "icons/camera-icon-52.svg"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.youtube.com/*"
+            ],
+            "js": [
+                "main.js"
+            ]
+        }
+    ],
+}
