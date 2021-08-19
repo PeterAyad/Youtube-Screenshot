@@ -6,4 +6,4 @@ In Firefox: Open the about:debugging page, click "This Firefox" (in newer versio
 The extension will now be installed, and will stay until you restart Firefox.
 Now open youtube.com, play a video then press **shift + A** to save a video frame as an image.
 
-*If it is accepted by mozilla, I will add the firefox add-ons URL*
+https://addons.mozilla.org/en-US/firefox/addon/youtubescreenshot/
