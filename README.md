@@ -2,8 +2,7 @@
 A simple firefox add-on to take a screenshot of a playing youtube video on pressing **shift + A**
 
 ## Trying it out
-In Firefox: Open the `about:debugging` page, click "This Firefox" (in newer versions of Firefox), click "Load Temporary Add-on", then select any file in the extension's directory.
-The extension will now be installed, and will stay until you restart Firefox.
-Now open youtube.com, play a video then press **shift + A** to save a video frame as an image.
-
-_To keep the extension permanently, add script to greasemonkey._
+- If using Chrome, install [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+- If using Firefox, install [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)
+- On either Tampermonkey or Greasemonkey, Create a new script and copy paste the [script](./YouTubeScreenshot.js) to it
+- **Shift + A**

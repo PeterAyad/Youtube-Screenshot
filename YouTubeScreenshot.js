@@ -1,3 +1,11 @@
+// ==UserScript==
+// @name         YouTube Screenshot
+// @version      2.0
+// @description  Save a frame of YouTube video as a photo
+// @author       Peter Ayad
+// @match        https://*.youtube.com/*
+// ==/UserScript==
+
 document.onkeydown = (evt) => {
     if (evt.shiftKey && evt.code == 'KeyA') {
         let video = document.getElementsByTagName("video")[0];
@@ -26,8 +34,7 @@ document.onkeydown = (evt) => {
             link.dispatchEvent(
                 new MouseEvent('click', {
                     bubbles: true,
-                    cancelable: true,
-                    view: window
+                    cancelable: true
                 })
             );
         }, 'image/jpeg', 1);
