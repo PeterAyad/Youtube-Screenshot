@@ -1,5 +1,5 @@
 # Youtube-Screenshot
-A simple firefox add-on to take a screenshot of a playing youtube video on pressing **shift + A**
+A simple add-on to take a screenshot of a playing YouTube video on pressing **shift + A**
 
 ## Trying it out
 - If using Chrome, install [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
